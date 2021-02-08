@@ -5246,9 +5246,11 @@ Created using IcoMoon - icomoon.io
   text-transform: uppercase; }
 
 .cc-project-header img {
-  height: 120px;
+  height: 150px;
   width: auto;
   position: relative;
+  border-radius: 20px;
+  border: 1px solid #ddd;
 }
 
 /* Education Style */

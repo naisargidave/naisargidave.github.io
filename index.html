@@ -264,39 +264,52 @@
         <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
           <div class="card-body">
             <div class="h5">Data Engineer</div>
-            <p class="mb-0"><strong>Tools : </strong>QlikSense, PowerApps, SharePoint, Python</p>
+            <p class="mb-0"><strong>Tools : </strong>AWS: DataNet, DataCraft, Cradle, Redshift, Andes, S3, Glue</p>
             <br>
-            <div class="h6">Change Over Application</div>
+            <div class="h6">Inflation Pipeline</div>
             <ul>
-              <li>Designed a database and developed an application using SharePoint and PowerApps with the Quality Assurance 
-                team for capturing the changeover details of equipment used in drug 
-                manufacturing processes.
+              <li>Worked with economists to build a cascading multi-stage Fisher Index pipeline based
+                on Cradle, SQL to analyze the month over month glance view weighted price inflation trends at Amazon.
+                Created Redshift tables to store the staging data and the final result. Received the Pathfinder award for
+                finding solutions that impact and change business processes.
               </li>
             </ul>
-            <div class="h6">Talent Dashboard</div>
+            <div class="h6">Net Price Competitiveness Pipeline</div>
             <ul>
-              <li>Represented employee details and the acquisition, attrition rates using visualizations 
-                in a Qlik Sense Dashboard for the Strategic Operations team to monitor. 
-              </li>
-              <li>
-                Implemented data masking script using Python to handle sensitive data.
+              <li>Built a pipeline that tracks Amazon’s price competitiveness by
+                incorporating newly launched promotions using DataNet Extract and Load Jobs. Created Andes and
+                Redshift tables to store the resultant data and backfilled it. Generated automated weekly reports using
+                SQL Metric Jobs to highlight the issues in our pricing systems and aid decision making. 
               </li>
             </ul>
-            <div class="h6">Training Dashboard</div>
+            <div class="h6">Price Consistency Metric</div>
             <ul>
-              <li>Created a dashboard for supervisors and employees across multiple departments 
-                to track and highlight upcoming and past due requirements to ensure compliance. 
-              </li>  
-              <li>
-                Conducted several training sessions on the dashboard for a large user base within the organization
+              <li>To ensure similar products (e.g. two same tshirts, differing only in color) are
+                priced the same, built a DataNet and Redshift based metric pipeline, to report the price consistency of
+                such products at Amazon.
               </li>            
             </ul>
-            <div class="h6">Business Presentations</div>
+            <div class="h6">Data Storage Cost Optimization:</div>
             <ul>
               <li>
-                Worked on and delivered presentations on several Office365 applications such as Planner, 
-                PowerApps, Power Automate, SharePoint, Forms and Teams advanced. 
+                Analyzing data stored in Andes tables and EDX files to identify
+                redundant, extraneous data to be deprecated to reduce storage costs. Projected expense saved - 30%.
               </li>
+            </ul>
+            <div class="h6">Pricing Evaluations Data Pipeline</div>
+            <ul>
+              <li>Read nested JSON data from DynamoDB stream using DataCraft and
+                converted it to TSV format by defining complex SDL schema in Cradle to replace unscalable and
+                expensive DynamoDB scans.                
+              </li>            
+            </ul>
+            <div class="h6">Price Consistency Metric</div>
+            <ul>
+              <li>Created a pipeline to nudge vendors to update the price of their products on Amazon
+                marketplace. Implemented the logic to identify the products that need price update using SQL in Cradle
+                with output data written to S3 buckets. Created a Glue database to store and query the output data and
+                attached schema using Crawler. Performed validations and data analysis using Athena.                
+              </li>            
             </ul>
           </div>
         </div>
